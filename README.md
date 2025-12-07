@@ -6,6 +6,7 @@
 
 ```bash
 brew tap mkoepf/tap
+brew install <formula>
 ```
 
 ## Available Formulae
@@ -14,12 +15,6 @@ brew tap mkoepf/tap
 |-----------|-------------------------------------------------------|----------------------------------------------------------|
 | ghcrctl   | [mkoepf/ghcrctl](https://github.com/mkoepf/ghcrctl)   | CLI tool for managing GitHub Container Registry packages |
 | wth       | [mkoepf/worktree-helper](https://github.com/mkoepf/worktree-helper) | Worktree Helper - automates clean Git worktree workflows |
-
-## Install a formula
-
-```bash
-brew install mkoepf/tap/<formula>
-```
 
 ## More Information
 

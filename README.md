@@ -8,20 +8,19 @@
 brew tap mkoepf/tap
 ```
 
-Available Formulae
+## Available Formulae
 
-| Formula                                      | Description                                              |
-|----------------------------------------------|----------------------------------------------------------|
-| https://github.com/mkoepf/ghcrctl            | CLI tool for managing GitHub Container Registry packages |
-| https://github.com/mkoepf/worktree-helper    | Worktree Helper - automates clean Git worktree workflows |
+| Formula   | Repository                                            | Description                                              |
+|-----------|-------------------------------------------------------|----------------------------------------------------------|
+| ghcrctl   | [mkoepf/ghcrctl](https://github.com/mkoepf/ghcrctl)   | CLI tool for managing GitHub Container Registry packages |
+| wth       | [mkoepf/worktree-helper](https://github.com/mkoepf/worktree-helper) | Worktree Helper - automates clean Git worktree workflows |
 
-Install a formula
+## Install a formula
 
 ```bash
-brew install mkoepf/tap/ghcrctl
-brew install mkoepf/tap/wth
+brew install mkoepf/tap/<formula>
 ```
 
-More Information
+## More Information
 
 For issues with specific tools, please file issues in their respective repositories.

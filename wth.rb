@@ -1,8 +1,8 @@
 class Wth < Formula
   desc "Worktree Helper - automates clean Git worktree workflows"
   homepage "https://github.com/mkoepf/worktree-helper"
-  url "https://github.com/mkoepf/worktree-helper/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "345bd45a3351502b02cab742cd4b8fc8bb86f3b9d41f9b50c6200a6bb7ee8a28"
+  url "https://github.com/mkoepf/worktree-helper/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "6c8f89c557179be0e5988eded1651d7c3ca9f663dc4c90b76ac8aa7aa111ec9b"
   license "MIT"
 
   def install

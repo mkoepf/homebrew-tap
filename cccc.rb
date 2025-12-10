@@ -5,21 +5,21 @@
 class Cccc < Formula
   desc "CLI tool for cleaning up Claude Code configuration"
   homepage "https://github.com/mkoepf/claude-code-config-cleaner"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mkoepf/claude-code-config-cleaner/releases/download/v0.1.0/cccc_0.1.0_darwin_amd64.tar.gz"
-      sha256 "91f6b40f4b10d1369962d9575be0731680b248ac73f861a02dbc77a94fbc95fe"
+      url "https://github.com/mkoepf/claude-code-config-cleaner/releases/download/v0.2.0/cccc_0.2.0_darwin_amd64.tar.gz"
+      sha256 "a92c91e17b62b5ae23d8c1e49c16de6406d79c29ae8478db4609dc9f845842a6"
 
       def install
         bin.install "cccc"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/mkoepf/claude-code-config-cleaner/releases/download/v0.1.0/cccc_0.1.0_darwin_arm64.tar.gz"
-      sha256 "2994b15ec615540d7d01eaa033815e35b5c06ba23d04eccd9a416cffcf25dcfb"
+      url "https://github.com/mkoepf/claude-code-config-cleaner/releases/download/v0.2.0/cccc_0.2.0_darwin_arm64.tar.gz"
+      sha256 "b86592f8cd01a044ad819f4be031073afbf31cb4d9ff198283cb30fa6791af92"
 
       def install
         bin.install "cccc"
@@ -29,15 +29,15 @@ class Cccc < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mkoepf/claude-code-config-cleaner/releases/download/v0.1.0/cccc_0.1.0_linux_amd64.tar.gz"
-      sha256 "c1b54350d8c0745ccf544f87817fdf8a6df0f4c87bff34d0861b518baded82ec"
+      url "https://github.com/mkoepf/claude-code-config-cleaner/releases/download/v0.2.0/cccc_0.2.0_linux_amd64.tar.gz"
+      sha256 "af9628168ae558b008c61c199c82b04f274684e5cc3d5148a62657c343178ef7"
       def install
         bin.install "cccc"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mkoepf/claude-code-config-cleaner/releases/download/v0.1.0/cccc_0.1.0_linux_arm64.tar.gz"
-      sha256 "71f2cca55eb6e3a7925234921bb77da483fd2f418aa6e0fbbecc5b1983f9099a"
+      url "https://github.com/mkoepf/claude-code-config-cleaner/releases/download/v0.2.0/cccc_0.2.0_linux_arm64.tar.gz"
+      sha256 "0faef1341dfc98fb8736f81de0e05781fa50778afb57c15cbd556c739c6c4cec"
       def install
         bin.install "cccc"
       end
